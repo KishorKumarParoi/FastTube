@@ -4,10 +4,10 @@ import { useEffect } from "react";
 
 const Page = () => {
   useEffect(() => {
-    console.log("Where am I rendered now?");
+    console.log("Where am I rendered now Kishor?");
   }, []);
 
-  return <div>page</div>;
+  return <div>Feed Page</div>;
 };
 
 export default Page;

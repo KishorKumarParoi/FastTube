@@ -3,8 +3,8 @@ interface PageProps {
 }
 
 const page = async ({ params }: PageProps) => {
-  console.log("Where am I?");
   const { videoId } = await params;
+  console.log("videoId", videoId);
   return <div>Feed page: {videoId}</div>;
 };
 
